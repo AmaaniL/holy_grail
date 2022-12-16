@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (min-width: 768px){
+nav,
+aside {
+  width: 25%;
+  padding: 0 1em
+}
+nav {
+  float: left;
+  padding-right: 10em;
+
+
+}
+aside {
+  float: right;
+  
+
+}
+
+main{
+float: inline-start;
+    width: 50%;
+
+}
+header,
+footer {
+  width: 100%;
+  clear: both;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+}
